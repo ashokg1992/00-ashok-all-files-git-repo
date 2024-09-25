@@ -31,3 +31,17 @@
         name: nginx
         state: started
         enabled: yes
+
+# ===================================================================
+# write ansible playbook to check java version?
+- name: Check Java Version
+  hosts: all
+  gather_facts: yes
+
+  tasks:
+    - name: Print Java Version
+      shell: java -version
+
+# ===========================================================================================
+# 
+

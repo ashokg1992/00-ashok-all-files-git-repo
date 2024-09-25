@@ -1,4 +1,10 @@
+
+
+
+
+
 # ============= deekshit detail explnation jenkins file ==========================
+
 
 pipeline{
     agent any 
